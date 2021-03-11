@@ -1,39 +1,53 @@
-body {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Kumbh Sans", sans-serif;
-  background-color: #19a2ae;
+html{
   overflow: hidden;
 }
 
+body {
+  margin: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+  overflow: hidden;
+
+}
+.container{
+position: absolute;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.image-rounded{
+  min-width: 100%;
+  overflow: hidden;
+  }
+
 .topLeftCircle{
-  width: 100%;
-  position: absolute;
-  top:50%;
-  left:50%;
-  margin-top: -55rem;
-  margin-left: -62.50rem;
+position: relative;
+display:block;
+left: -2rem;
+top:-32rem;
+
 }
+
 .bottomRightCircle{
- width: 100%;
- position: absolute;
- top:50%;
- left:50%;
- margin-top: auto;
- margin-left: -1rem;
+position: relative;
+display:block;
+top: 23rem;
+left:-2rem;
+
 }
+
 .card{
   position: absolute;
-  top:50%;
-  left:50%;
-  margin-top:-11.5rem;
-  margin-left:-11rem;
-  width: 22rem;
-  height: 23rem;
+  width:22rem;
+  height: 23.5rem;
+  margin-top: -16rem;
   border-radius: 15px;
-  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 16px 23px 0 rgba(0,0,0,0.2);
 
 }
 .card-img-top{
@@ -46,27 +60,27 @@ body {
 .profile-photo{
   position: absolute;
   border-radius: 50%;
-  margin: 92px 122px;
+  margin: 5.5rem 122px;
   border-style: solid;
   border-width: 0.3rem;
   border-color: #fff;
 }
 h5{
   text-align: center;
-  padding-top:3rem;
+  margin-top:3.5rem;
   font-size: 18px;
-  color: hsl(0, 0%, 59%);
+  color: #969696;
 }
 b{
   font-weight: 700;
-  color: hsl(229, 23%, 23%);
+  color:#2d3248;
 }
 hr{
   width: 22rem;
   margin-left: -21px;
 }
 p{
-  color: hsl(0, 0%, 59%);
+  color: 	#969696;
   text-align: center;
   font-size:14px;
   padding-bottom:5px;
@@ -79,13 +93,13 @@ table{
 .numbers{
   text-align: center;
   font-weight: 700;
-  color: hsl(229, 23%, 23%);
+  color: 	#2d3248;
   font-size:18px;
 
 }
 .description{
   text-align: center;
-  color: hsl(0, 0%, 59%);
+  color: 	#969696;
   font-size: 11px;
   letter-spacing: 1px;
 }
